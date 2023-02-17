@@ -1,0 +1,150 @@
+.title {
+    width: 225px;
+    height: 225px;
+    line-height: 50px;
+    margin-top: 20px;
+}
+
+.title-col {
+    display: flex;
+    justify-content: center;
+}
+
+.register-col {
+    display: flex;
+    justify-content: center;
+}
+
+.register-button {
+    font-size: 20px;
+    font-family: 'Happy Monkey', cursive;
+    font-weight: 100px;
+    border: 3.2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-top: -60px;
+    height: 45px;
+    margin-left: -20px;
+}
+
+.button-row > .col {
+    margin-top: 50px;
+} 
+
+.sponser-col {
+    display: flex;
+    justify-content: center;
+}
+
+.sponser-button {
+    font-size: 35px;
+    font-family: 'Happy Monkey', cursive;
+    font-weight: 100px;
+    border: 3.2px solid black;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 60px;
+    padding-right: 60px;
+    height: 60px;
+    margin-left: -20px;
+}
+
+.signup-col {
+    display: flex;
+    justify-content: center;
+
+}
+
+.signup-button {
+    font-size: 35px;
+    font-family: 'Happy Monkey', cursive;
+    font-weight: 100px;
+    border: 3.2px solid black;
+    border-radius: 50px;
+    text-align: center;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    padding-left: 80px;
+    padding-right: 80px;
+    height: 60px;
+    margin-left: -20px;
+}
+
+.text-info-col {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    font-family: 'Luckiest Guy', cursive;
+    font-size: 10px;
+    margin-bottom: 80px;
+}
+
+.text-info-col > #address {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.text-info-col h3 {
+    font-size: 25px;
+}
+
+.line1 {
+    font-size: 60px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.line2 {
+    font-size: 40px;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.line3 {
+    font-size: 40px;
+    font-family: 'Luckiest Guy', cursive;
+}
+
+.paragraph > h3 {
+    font-weight: 100px;
+    font-family: 'Happy Monkey', cursive;
+    text-align: center;
+}
+
+.paragraph > p {
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+}
+
+.paragraph {
+    margin-top: 30px;
+}
+
+.circle-col > .circle {
+    border: 3.2px solid black;
+    border-radius: 100%;
+    width: 250px;
+    height: 250px;
+}
+
+.circle {
+    display: flex;
+    flex-wrap: nowrap;
+    margin:auto;
+}
+
+@media (max-width: 765px) {
+    .signup-col {
+        width: 100%;
+    }
+}
+
+@media (max-width: 765px) {
+    .text-info-col h3 {
+        
+    }
+}
